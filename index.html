@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My-Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">
+            Tejal's Portfolio
+        </div>
+        <div class="right">
+            <ul>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/About.html">About</a></li>
+                <li><a href="/Education.html">Education</a></li>
+                <li><a href="/Contact.html">Contact Me</a></li>
+               
+            </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+             Hi, My name is <span class="purple">Tejal</span> 
+             <div>and I am a passionate</div> 
+
+             
+             <span id="element"></span>
+             <div class="buttons">
+              <button class="btn" id="btn">Download Resume</button>
+              <button class="btn" id="openLinkButton">Visit  Github</button>
+             </div>
+            </div>
+            <div class="rightsection">
+                <img src="/mepic.jpg" >
+            </div>
+        </section>
+           <hr>
+        <section class="secondsection">
+            <span class="text-gray">What I had done so far</span>
+            <h1>Projects</h1>
+            <div class="box">
+                <div class="vertical">
+             <div class="vertical-text">
+                Portfolio Website 
+             </div>
+             <div class="vertical-description">
+               using HTML, CSS and JavaScript
+              
+             </div>
+                </div>
+                <div class="vertical">
+                    <div class="vertical-text">
+                       Stock market price prediction 
+                     </div>
+                     <div class="vertical-description">
+                       using Logistic Regression
+                      
+                     </div>
+                </div>
+                <!-- <div class="vertical"></div>
+                <div class="vertical"></div> -->
+                
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Tejal's Developer Portfolio</h3>
+            </div>
+
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>Services</li>
+                    <li>Contact</li> 
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>Home</li>
+                    <li>Services</li>
+                    <li>Contact</li> 
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li>Home</li>
+                    <li>Services</li>
+                    <li>Contact</li> 
+                </ul>
+            </div>
+        </div>
+        <div class="footer-right">
+            www.tejalsportfolio.com | All rights reserved
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script> 
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Web Developer', 'Code Enthusiast'],
+          typeSpeed: 50,
+        });
+      </script>
+      <script src="script.js"></script>
+    
+  </body>
+</html>
